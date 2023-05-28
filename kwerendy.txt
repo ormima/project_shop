@@ -1,0 +1,11 @@
+kw 1
+SELECT `id`, `nazwa`, `cena` FROM `towary` LIMIT 4;
+
+kw 2
+SELECT `cena` FROM `towary` WHERE `nazwa` = "cyrkiel";
+
+kw 3
+SELECT `nazwa` FROM `towary`;
+
+kw 4
+SELECT COUNT(promocja) AS ile FROM `towary` WHERE promocja = "0" OR promocja = "1";

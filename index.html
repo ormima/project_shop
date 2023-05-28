@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurtownia papiernicza</title>
+    <link rel="stylesheet" href="./styl.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>W naszej hurtowni kupisz najtaniej</h1>
+        </header>
+        <div class="box">
+            <div class="left">
+                <h3>Ceny wybranych artykułów w hurtowni:</h3>
+                <!-- skrypt cz1 result -->
+                <table>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="middle">
+                <h3>Ile będą kosztować Twoje zakupy?</h3>
+                <form action="./index.php" method="post">
+                    <label>
+                        <p>Wybierz artykuł</p>
+                        <select name="artykuł">
+                            <option value="">Zeszyt 60 kartek</option>
+                            <option value="">Zeszyt 32 kartki</option>
+                            <option value="">Linijka 30 cm</option>
+                            <option value="">Cyrkiel</option>
+                            <option value="">Ekierka</option>
+                            <option value="">Linijka 50 cm</option>
+                        </select>
+                    </label>
+                    <label>
+                        <p>Liczba sztuk:</p>
+                        <input type="number" name="ile">
+                    </label>
+                    <button>OBLICZ</button>
+                    <!-- skrypt cz2 result -->
+                </form>
+            </div>
+            <div class="right">
+                <img src="./zakupy.png" alt="hurtownia"/>
+                <h3>Kontakt</h3>
+                <p>tel: <br> 111222333 <br> e-mail: <br> <a href="hurt@wp.pl" target="_blank">hurt@wp.pl</a></p>
+            </div>
+        </div>
+        <small>
+            <h4>Witrynę wykonał <i>000000</i></h4>
+        </small>
+    </div>
+</body>
+</html>
